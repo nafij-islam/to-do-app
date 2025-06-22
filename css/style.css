@@ -1,0 +1,54 @@
+.box{
+    padding: 20px 150px 50px 150px;
+    background-color: rgb(207, 93, 192);
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: white;
+}
+.boxtwo{
+    padding: 10px 150px 50px 150px;
+    background-color: rgb(108, 231, 89);
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.box input{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.box textarea{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.box input:focus{
+    background-color: transparent;
+    outline: none;
+    
+}
+.box input::placeholder{
+    color: black;
+    
+}
+
+.box textarea:focus{
+    background-color: transparent;
+    outline: none;
+}
+
+.form-label{
+    font-weight: 600;
+}
+
+.box .postbtn{
+    padding: 7px 25px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.boxtwo .card{
+    background-color:rgb(207, 93, 192);
+}
