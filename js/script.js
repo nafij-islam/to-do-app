@@ -14,6 +14,8 @@ postbtn.addEventListener("click", function(){
         caption:caption.value
     })
      display()
+     name.value=""
+     caption.value=""
    
 })
 
