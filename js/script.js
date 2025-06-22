@@ -13,6 +13,7 @@ postbtn.addEventListener("click", function(){
         name:name.value,
         caption:caption.value
     })
+     allpost.innerHTML=""
      display()
      name.value=""
      caption.value=""
