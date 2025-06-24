@@ -52,3 +52,8 @@ h1{
 .boxtwo .card{
     background-color:rgb(207, 93, 192);
 }
+.delete:hover{
+    background-color: rgb(255, 0, 0);
+    
+}
+
