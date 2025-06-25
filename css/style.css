@@ -56,4 +56,10 @@ h1{
     background-color: rgb(255, 0, 0);
     
 }
+.updatebtn{
+    display: none;
+     padding: 7px 25px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
 
