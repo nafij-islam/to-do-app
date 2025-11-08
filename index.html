@@ -1,38 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post App</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <div class="container">
-       <div class="box">
+      <div class="box">
         <h1>To do</h1>
-               <div class="mb-3">
-               <label for="exampleFormControlInput1" class="form-label">Name :</label>
-               <input type="email" class="form-control name" id="exampleFormControlInput1" placeholder="Enter Your Name:">
-           </div>
-           <div class="mb-3">
-               <label for="exampleFormControlTextarea1" class="form-label">Caption :</label>
-               <textarea placeholder="Enter a caption" class="form-control caption" id="exampleFormControlTextarea1" rows="3"></textarea>
-           </div>
-           <button class="btn btn-primary postbtn">Post</button>
-           <button class="btn btn-primary updatebtn">Update</button>
-           <h3 class="error"></h3>
-       </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Name :</label
+          >
+          <input
+            type="email"
+            class="form-control name"
+            id="exampleFormControlInput1"
+            placeholder="Enter Your Name:"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Caption :</label
+          >
+          <textarea
+            placeholder="Enter a caption"
+            class="form-control caption"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <button class="btn btn-primary postbtn">Post</button>
+        <button class="btn btn-primary updatebtn">Update</button>
+        <h3 class="error"></h3>
+      </div>
 
-       <div class="allpost boxtwo d-flex gap-3 flex-wrap">
+      <div class="allpost boxtwo d-flex gap-3 flex-wrap">
         <h2 class="nopost">No Post</h2>
         <!--jaba script -->
-        </div>
-       
-</div>
-
+      </div>
+    </div>
 
     <script src="./js/script.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
