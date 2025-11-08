@@ -15,7 +15,7 @@ let all=[]
 */
 postbtn.addEventListener("click", function(){
     if(!(name.value && caption.value)){
-        error.innerHTML="Name and Captiono Daw.!!"
+        error.innerHTML="Plz Name And Caption!!"
     }else{
            all.push({
         name:name.value,
